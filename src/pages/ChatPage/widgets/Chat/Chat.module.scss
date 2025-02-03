@@ -1,0 +1,94 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: url("https://w0.peakpx.com/wallpaper/538/546/HD-wallpaper-whatsapp-dark-mode-whatsapp.jpg");
+  background-size: contain;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background: #202c33;
+  color: white;
+  font-weight: bold;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.chatBody {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.myMessage,
+.receivedMessage {
+  max-width: 70%;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  word-wrap: break-word;
+  display: inline-block;
+}
+
+.myMessage {
+  background: #005c4b;
+  color: white;
+  align-self: flex-end;
+  border-bottom-right-radius: 0;
+}
+
+.receivedMessage {
+  background: #202c33;
+  color: white;
+  align-self: flex-start;
+  border-bottom-left-radius: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #202c33;
+}
+
+.inputContainer {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #2a3942;
+  border-radius: 20px;
+  padding: 8px 15px;
+}
+
+input {
+  flex-grow: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}

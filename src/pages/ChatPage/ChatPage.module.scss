@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.chatWrapper {
+  flex-grow: 1;
+}
+
+.defaultBackground {
+  flex-grow: 1;
+  background: url("https://w0.peakpx.com/wallpaper/538/546/HD-wallpaper-whatsapp-dark-mode-whatsapp.jpg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.5); 
+  font-size: 20px;
+  background-size: contain;
+}
+
+.placeholder {
+  text-align: center;
+}
